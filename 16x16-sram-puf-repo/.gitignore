@@ -1,0 +1,26 @@
+# Raw Cadence Monte Carlo waveform exports (~840 MB) - keep on the server, not in git
+mc_*.csv
+data/raw/*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX build products
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
